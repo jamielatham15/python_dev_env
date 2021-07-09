@@ -25,7 +25,7 @@ source ~/.profile
 source ~/.bashrc
 
 # Python install
-pyenv install -l | grep "3.*" -
+pyenv install -l | grep "3[.][0-9][.][0-9]" -
 echo Which version would you like to install globally?:
 read VERSION
 pyenv install $VERSION

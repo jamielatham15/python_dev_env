@@ -16,3 +16,12 @@
 ## Dependencies
 - Ubuntu/WSL
 
+## Instructions
+
+1. Clone the repo and navigate to the directory
+2. Run the following commands
+```
+chmod u+x ./setup.sh
+./setup.sh
+```
+3. Restart the shell
